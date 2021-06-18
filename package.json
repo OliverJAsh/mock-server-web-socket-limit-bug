@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "webpack && cp ./src/index.html ./dist/ && http-server -c-1 ./dist/"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "mockserver-client": "^5.11.2",
+    "webpack": "4",
+    "webpack-cli": "^4.7.2"
+  }
+}
